@@ -3,6 +3,10 @@ package studentA;
 public class Hello {
     String msg = "hello";
 
+    public Hello(String msg) {
+        this.msg = msg;
+    }
+
     public void say() {
         say(this.msg);
     }
